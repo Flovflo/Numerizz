@@ -159,44 +159,49 @@
                 </div>
               </div>
 
-            
+
         <!-- Signup-->
-        <section class="signup-section" id="signup">
+        <section class="demande" id="signup">
             <div class="container">
                 <div class="row">
                     <div class="col-md-10 col-lg-8 mx-auto text-center">
+
+
                     <h2 class="text-white mb-5">N'hésitez pas à me contacter pour toutes questions</h2>
-                     <form class="myForm">
+                     <form class="myForm" action="https://getform.io/f/fbad30d1-6fd7-4657-a9e8-5c3b56c9177f" method="POST" enctype="multipart/form-data">
+>
                       <fieldset id="customer">
                         <label1 for="customer_name">Nom </label1>
                         <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" type="text" name="customer_name" id="customer_name"  placeholder="Jean" required>
 
-                        <label1 for="phone_number">Numéro de téléphone </label1>
-                        <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" type="tel" name="phone_number" id="phone_number" placeholder="06 98 67 45 34">
+                        <label1 for="numero_telephone">Numéro de téléphone </label1>
+                        <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" type="tel" name="numero_telephone" id="numero_telephone" placeholder="06 98 67 45 34">
 
                         <label1 for="email_address">Email </label1>
                         <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" type="email" placeholder="Entrez votre adresse e-mail...">
                       </fieldset>
-                      <fieldset id="taxi">
+                      <fieldset id="stockage">
                         <legend>Quelle type de stockage voulez vous?</legend>
-                        <label2> <input type="radio" name="taxi" id="taxi_car" required value="car"> Vous apporter le stockage </label2>
-                        <label2> <input type="radio" name="taxi" id="taxi_van" required value="van"> Je vous fournit le stockage </label2>
-                        <label2> <input type="radio" name="taxi" id="taxi_tuk" required value="tuktuk"> Je vous les mets sur le Cloud</label2>
+                        <label2> <input type="radio" name="stockage" id="stockage_pas_de_stokage" required value="pas_de_stokage"> Vous apporter le stockage </label2>
+                        <label2> <input type="radio" name="stockage" id="stockage_je_fournie_le_stokage" required value="je_fournie_le_stokage"> Je vous fournit le stockage </label2>
+                        <label2> <input type="radio" name="stockage" id="stockage_cloud" required value="cloud"> Je vous les mets sur le Cloud</label2>
                       </fieldset>
 
-                      <fieldset id="extras">
+                      <fieldset id="cassttes">
                         <legend>Quelles type de cassettes avez vous ? </legend>
-                        <label2> <input type="checkbox" name="extras" id="extras_baby" value="baby"> MiniDv </label2>
-                        <label2> <input type="checkbox" name="extras" id="extras_wheel" value="wheelchair"> VHS </label2>
-                        <label2> <input type="checkbox" name="extras" id="extras_tip" value="tip"> VHS-C </label2>
-                        <label2> <input type="checkbox" name="extras" id="extras_tip" value="tip"> Hi8 / Video8 </label2>
+                        <label2> <input type="checkbox" name="cassttes" id="cassttes_mini_dv" value="mini_dv"> MiniDv </label2>
+                        <label2> <input type="checkbox" name="cassttes" id="cassttes_vhs" value="vhs"> VHS </label2>
+                        <label2> <input type="checkbox" name="cassttes" id="cassttes_vhs-c" value="vhs-c"> VHS-C </label2>
+                        <label2> <input type="checkbox" name="cassttes" id="cassttes_hi8" value="hi8"> Hi8 / Video8 </label2>
                       </fieldset>
-                    
+
                         <form class="form-inline d-flex">
                             <button class="btn btn-primary mx-auto" type="submit">Envoyer</button>
                         </form>
                 </div>
         </section>
+
+
         <!-- Contact-->
 
         <section class="contact-section bg-black">
@@ -233,7 +238,7 @@
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         </section>
         <!-- Bootstrap core JS-->
